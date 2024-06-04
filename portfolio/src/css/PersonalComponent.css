@@ -7,9 +7,8 @@
 .box-personal {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
     width: 100%;
-    height: 180px;
     border-radius: 10px;
-
+    padding: 20px;
 }
 
 .sub-text {
