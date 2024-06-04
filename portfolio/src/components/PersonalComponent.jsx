@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/PersonalComponent.css'
 function PersonalComponent() {
     return (
-        <div className='mt-3 main-per'>
+        <div className='mt-5 main-per'>
             <div className='title-personal text-center'>
                 ประวัติ
             </div>
@@ -23,9 +23,9 @@ function PersonalComponent() {
                         GPAX : 3.56
                     </div>
                 </div>
-                <div className="row mt-3">
+                <div className="row mt-2">
                     <div className="col-12 sub-text">
-                        ประสบการทำงาน
+                        ประสบการณ์ทำงาน
                     </div>
                     <div className="box-personal">
                         <strong>กรกฎาคม-ตุลาคม (2566)

@@ -13,7 +13,7 @@ import Php from '../../public/skill/php.png'
 
 function SkillComponent() {
     return (
-        <div className="row">
+        <div className="row mt-5">
             <div className="col-12">
                 <div className="title-skill">ทักษะ</div>
             </div>

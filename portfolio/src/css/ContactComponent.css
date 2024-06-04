@@ -20,3 +20,10 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 768px) {
+    .sub-box-contact div {
+        font-size: 15px;
+        font-weight: bold;
+    }
+}

@@ -28,10 +28,10 @@ function App() {
     <>
       <NavComponent></NavComponent>
       <div className="container">
-        <HelloComponent></HelloComponent>
+        <HelloComponent downloadFile={downloadFile}></HelloComponent>
         <AboutComponent></AboutComponent>
-        <SkillComponent></SkillComponent>
         <PersonalComponent></PersonalComponent>
+        <SkillComponent></SkillComponent>
         <ResultComponent></ResultComponent>
         <ContactComponent></ContactComponent>
       </div>

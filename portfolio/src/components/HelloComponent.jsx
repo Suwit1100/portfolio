@@ -2,7 +2,9 @@ import React from 'react'
 import "../css/HelloComponent.css"
 import { MdWavingHand } from "react-icons/md";
 import Profilepng from '../../public/profile.png'
-function HelloComponent() {
+function HelloComponent(props) {
+    const { downloadFile } = props;
+
     return (
         <div className="row d-flex align-items-center box-hello-d">
             <div className="col-md-8">
@@ -15,7 +17,7 @@ function HelloComponent() {
                     </p>
                     <div className="row">
                         <div className="col-12 ">
-                            <button className='btn btn-outline-success form-control'>ดาวโหลด Resume</button>
+                            <button className='btn btn-outline-success form-control' onClick={() => downloadFile()}>ดาวโหลด Resume</button>
                         </div>
                     </div>
                 </div>
