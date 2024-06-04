@@ -10,6 +10,10 @@ img.about {
     font-weight: bold;
 }
 
+.box-text-about {
+    box-sizing: border-box;
+}
+
 @media only screen and (max-width: 768px) {
     .box-img {
         padding: 0px;
@@ -17,5 +21,6 @@ img.about {
 
     .box-text-about {
         padding-top: 15px;
+        box-sizing: border-box;
     }
 }
