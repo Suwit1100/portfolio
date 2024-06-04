@@ -3,3 +3,9 @@
     font-size: 30px !important;
     font-weight: bolder !important;
 }
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: white !important;
+    background-color: #850F8D !important;
+}

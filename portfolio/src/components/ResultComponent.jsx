@@ -7,8 +7,8 @@ import '../css/ResultComponent.css'
 
 function ResultComponent() {
     return (
-        <div>
-            <div className="title-result text-center mt-5 mb-4">
+        <div className=' mt-5' id='list-result'>
+            <div className="title-result text-center mb-4">
                 ผลงาน
             </div>
             <div className="row g-4">

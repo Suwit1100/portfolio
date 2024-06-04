@@ -6,7 +6,7 @@ import Phone from '../../public/phone.png'
 
 function ContactComponent() {
     return (
-        <div className='mt-5'>
+        <div className='mt-5' id='list-contact'>
             <div className="title-contact text-center ">
                 ติดต่อ
             </div>

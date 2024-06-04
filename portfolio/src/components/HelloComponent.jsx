@@ -6,7 +6,7 @@ function HelloComponent(props) {
     const { downloadFile } = props;
 
     return (
-        <div className="row d-flex align-items-center box-hello-d">
+        <div className="row d-flex align-items-center box-hello-d" id='home'>
             <div className="col-md-8">
                 <div className='box-hello'>
                     <div className='hello text-center text-wrap'><i className='hi'><MdWavingHand></MdWavingHand></i>สวัสดีครับ</div >

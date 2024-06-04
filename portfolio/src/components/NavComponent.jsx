@@ -10,18 +10,18 @@ function NavComponent() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
+                    <ul className="navbar-nav nav-pills">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">หน้าหลัก</a>
+                            <a className="nav-link active" aria-current="page" href="#home">หน้าหลัก</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">เกี่ยวกับฉัน</a>
+                            <a className="nav-link " href="#list-about">เกี่ยวกับฉัน</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">ผลงาน</a>
+                            <a className="nav-link" href="#list-result">ผลงาน</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link">ติดต่อ</a>
+                            <a className="nav-link" href='#list-contact'>ติดต่อ</a>
                         </li>
                     </ul>
                 </div>

@@ -3,7 +3,7 @@ import '../css/AboutComponent.css'
 
 function AboutComponent() {
     return (
-        <div className='box-about mt-3'>
+        <div className='box-about mt-3' id='list-about'>
             <div className="row d-flex align-items-center">
                 <div className="col-md-4">
                     <div className="box-img text-center">
