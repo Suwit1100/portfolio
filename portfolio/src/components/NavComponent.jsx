@@ -18,6 +18,12 @@ function NavComponent() {
                             <a className="nav-link " href="#list-about">เกี่ยวกับฉัน</a>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link " href="#list-personal">ประวัติ</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link " href="#list-skill">ทักษะ</a>
+                        </li>
+                        <li className="nav-item">
                             <a className="nav-link" href="#list-result">ผลงาน</a>
                         </li>
                         <li className="nav-item">

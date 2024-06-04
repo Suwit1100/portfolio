@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <NavComponent></NavComponent>
-      <div className="container" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+      <div className="container">
         <HelloComponent downloadFile={downloadFile}></HelloComponent>
         <AboutComponent></AboutComponent>
         <PersonalComponent></PersonalComponent>

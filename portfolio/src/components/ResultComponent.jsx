@@ -7,7 +7,7 @@ import '../css/ResultComponent.css'
 
 function ResultComponent() {
     return (
-        <div className=' mt-5' id='list-result'>
+        <div className='mt-5' id='list-result'>
             <div className="title-result text-center mb-4">
                 ผลงาน
             </div>

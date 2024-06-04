@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/PersonalComponent.css'
 function PersonalComponent() {
     return (
-        <div className='mt-5 main-per'>
+        <div className='mt-5 main-per' id='list-personal'>
             <div className='title-personal text-center'>
                 ประวัติ
             </div>
