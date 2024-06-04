@@ -1,0 +1,39 @@
+.title-skill {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    color: #850F8D;
+}
+
+img.skill {
+    width: 50%;
+    height: 100px;
+
+}
+
+.box-skill {
+    width: 100%;
+    height: 150px;
+}
+
+.box-skill div {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    img.skill {
+        width: 50%;
+        height: 45px;
+    }
+
+
+    .box-skill div {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .box-skill {
+        width: 100%;
+        height:100px;
+    }
+}
