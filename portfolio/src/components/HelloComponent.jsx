@@ -7,9 +7,11 @@ function HelloComponent() {
         <div className="row d-flex align-items-center box-hello-d">
             <div className="col-md-8">
                 <div className='box-hello'>
-                    <div className='hello text-wrap'><i className='hi'><MdWavingHand></MdWavingHand></i>สวัสดีครับ ผมชื่อสุวิทย์ ลีเจ้ยวาระ เป็นนักศึกษาจบใหม่ สาขาวิทยาการคอมพิวเตอร์</div >
+                    <div className='hello text-center text-wrap'><i className='hi'><MdWavingHand></MdWavingHand></i>สวัสดีครับ</div >
+                    <div className='hello text-center text-wrap'>ผมชื่อสุวิทย์ ลีเจ้ยวาระ</div >
                     <p className='mt-2'>
-                        ผมกำลังมองหางานตำแหน่ง Web Devloper และผมมีความสนใจในการเขียนโค้ดและพัฒนาเว็บแอปพลิเคชัน
+                        เป็นนักศึกษาจบใหม่ จากมหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี คณะวิทยาศาสตร์และเทคโนโลยี สาขาวิทยาการคอมพิวเตอร์
+                        &nbsp;<strong>ผมกำลังมองหางานตำแหน่ง Web Devloper</strong> และผมมีความสนใจในการเขียนโค้ดและพัฒนาเว็บแอปพลิเคชัน
                     </p>
                     <div className="row">
                         <div className="col-12 ">

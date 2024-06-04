@@ -1,13 +1,31 @@
+a {
+    text-decoration: none !important;
+    color: black !important;
+    font-weight: bold;
+
+}
+
 .box-result {
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .box-result img {
-    width: 350px;
-    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.box-result img:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 5px solid #850F8D;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box-result img {
+    width: 95%;
+    height: 200px;
     object-fit: contain;
     object-position: center center;
+
 }
 
 .title-result {
