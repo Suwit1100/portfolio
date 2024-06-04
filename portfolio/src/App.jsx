@@ -5,6 +5,7 @@ import HelloComponent from './components/HelloComponent'
 import AboutComponent from './components/AboutComponent'
 import SkillComponent from './components/SkillComponent'
 import ResultComponent from './components/ResultComponent'
+import PersonalComponent from './components/PersonalComponent'
 function App() {
   const [count, setCount] = useState(0)
   const downloadFile = () => {
@@ -25,10 +26,11 @@ function App() {
   return (
     <>
       <NavComponent></NavComponent>
-      <div className="container-fulid">
+      <div className="container">
         <HelloComponent></HelloComponent>
         <AboutComponent></AboutComponent>
         <SkillComponent></SkillComponent>
+        <PersonalComponent></PersonalComponent>
         <ResultComponent></ResultComponent>
       </div>
     </>

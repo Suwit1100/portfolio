@@ -17,7 +17,7 @@ function SkillComponent() {
             <div className="col-12">
                 <div className="title-skill">ทักษะ</div>
             </div>
-            <div className="col- mt-3">
+            <div className="col-12 mt-3">
                 <div className="row">
                     <div className="col-4 col-md-2 box-skill text-center">
                         <img className='skill my-2' src={Html} alt="" />
@@ -67,11 +67,6 @@ function SkillComponent() {
                         <div className='text-truncate'>MongoDB</div>
 
                     </div>
-                </div>
-            </div>
-            <div className="col-12 mt-3">
-                <div className="row">
-
                 </div>
             </div>
         </div>

@@ -27,9 +27,7 @@ function ResultComponent() {
                 <a href='https://github.com/Suwit1100' className="col-6 col-md-3 box-result text-center my-2">
                     <img src={Github} alt="" />
                     <div className="des-result mt-1">โปรเจคเพิ่มเติม Github</div>
-
                 </a>
-
             </div>
         </div>
     )
