@@ -4,7 +4,7 @@ import NavComponent from './components/NavComponent'
 import HelloComponent from './components/HelloComponent'
 import AboutComponent from './components/AboutComponent'
 import SkillComponent from './components/SkillComponent'
-
+import ResultComponent from './components/ResultComponent'
 function App() {
   const [count, setCount] = useState(0)
   const downloadFile = () => {
@@ -29,6 +29,7 @@ function App() {
         <HelloComponent></HelloComponent>
         <AboutComponent></AboutComponent>
         <SkillComponent></SkillComponent>
+        <ResultComponent></ResultComponent>
       </div>
     </>
   )

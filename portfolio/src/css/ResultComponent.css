@@ -1,0 +1,17 @@
+.box-result {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.box-result img {
+    width: 350px;
+    height: 300px;
+    object-fit: contain;
+    object-position: center center;
+}
+
+.title-result {
+    color: #850F8D;
+    font-size: 27px;
+    font-weight: bold;
+}
